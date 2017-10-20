@@ -14,10 +14,10 @@ class UserStatus extends Component {
   }
 
   componentDidMount() {
-    if (this.props.isAuthenticated) {
-      this.getUserStatus();
-    }
+  if (this.props.isAuthenticated) {
+    this.getUserStatus();
   }
+}
 
   getUserStatus(event) {
     const options = {
